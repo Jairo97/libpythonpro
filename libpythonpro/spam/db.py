@@ -1,7 +1,8 @@
 class Sessao:
     contador = 0
     usuarios = []
-    def salvar(self,usuario):
+
+    def salvar(self, usuario):
         self.contador += 1
         usuario.id = self.contador
         self.usuarios.append(usuario)
