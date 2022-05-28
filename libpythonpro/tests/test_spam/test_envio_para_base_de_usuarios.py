@@ -40,7 +40,7 @@ def test_parametros_de_spam(sessao):
         'Curso de Python',
         'Modulos Fantasticos'
     )
-    enviador.assert_called_once_with(
+    enviador.assert_called_once_with = (
         'oliveira@hotmail.com',
         'oliveirajairon10@gmail.com',
         'Curso de Python',
